@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+
+    <h1> STUDENT REGISTRATION FORM</h1>
+
+       <form action="rohan.php" id="regform" name="form1" method="get">
+
+        
+           <fieldset>
+
+           <legend>Joining form</legend>
+
+        <div id="number">
+            <label for="anumber">APPLICATION NUMBER:</label>
+            <input type="text" id="anumber" name="number" required>
+
+                   
+        </div>
+
+                      <br>
+
+        <div id="nme">
+            <label for="name"> STUDENT NAME:</label>
+                <input type="text"  id="name" name="nm">
+        </div>
+                        <br>
+
+         <div id="fanme">
+        <label for="Fname"> FATHER NAME:</label>
+         <input type="text"  id="Fname" name="nm">
+        </div>
+                         <br>
+
+
+        <div id="ag">
+        <label for="age">AGE :</label>
+        <input type="number" id="age" name="ag" min="18" max="25">
+         </div>
+                                
+                        <br>
+
+        <div id="date">
+         <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="date">
+        </div>
+                                                    
+                    <br>
+
+        <div id="gen">
+        <label for="gen">GENDER:</label>
+        <input type="radio" id="gen" name="gen" value="Male">Male
+        <input type="radio" id="gen" name="gen" value="Female">Female
+        </div>
+
+                      <br>
+
+       
+                
+        <div id="addr">
+        <label for="address">ADDRESS:</label>
+        <input type="text"  id="adress" name="adress">
+            </div>
+                     <br>
+
+
+        <div id="cou">
+        <label for="country">COUNTRY:</label>
+         <input type="" id="country" name="coun" pattern="{A-Z a-z} {3}">
+                        
+        </div>
+                           
+        <br>
+
+          <div id="pla">
+          <label for="place">PLACE:</label>
+         <input type="text"  id="place" name="pla">
+         </div>
+                      <br>
+
+         <div id="phone">
+
+        <label for="ph">PHONE NO:</label>
+         <input type="number" id="ph" name="phone" min="10" max="10">
+        </div>
+                                        
+                     <br>
+
+
+         <div id="'email">
+        <Label for="mail">Email:</Label>
+        <input type="email" id="mail" name="mail">
+        </div>
+                          
+                     <br>
+
+         <div id="'lang">
+          <Label for="language">LANGUAGE:</Label>
+         <input type="checkbox" id="language" name="lang" >Telugu
+         <input type="checkbox" id="language" name="lang" >English
+        </div>
+                                      
+                    <br>
+
+        <div id="col">
+        <label for="college">COLLEGE NAME:</label>
+        <input type="text" id="college" name="col">
+        
+        </div>
+                     <br>
+            
+            
+    <div id="de">
+    <label for="degree">DEGREE:</label>
+    <input type="radio" id="degree" name="deg" value="M.tech">M.tech              
+     <input type="radio" id="degree" name="deg" value="B.tech">B.tech  
+    </div>
+                    <br>
+             
+    <div id="br">
+     <label for="branch"> BRANCH:</label>
+    <input type="radio" id="branch"  name="br" value="CSE">CSE
+    <input type="radio" id="branch"  name="br" value="ECE">ECE
+    <input type="radio" id="branch"  name="br" value="IT">IT
+    <input type="radio" id="branch"  name="br" value="MECHANICAL">MECHANICAL
+    </div>
+                    
+                     <br>
+
+     <div id="per">
+     <label for="percentage">PERCENTAGE:</label>
+    <input type="number"  id="percentage" name="per" min="45" max="90">     
+    </div>
+                                
+                     <br>            
+    <div>
+    <input type="submit" value="register">
+    </div>
+                                             
+</fieldset>
+
+       </form>
+
+    
+    
+</body>
+</html>
